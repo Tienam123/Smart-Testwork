@@ -7,7 +7,11 @@
   
 Затем необходимо запустить команду php artisan key:generate  
 После распакуйте содержимое архива films в папку `storage/app/public` там находится плейсхолдер для фильмов  
-
+---
+После чего выполните миграции + сидеры  
+```javascript
+php artisan migrate --seed
+```
 
 ## Genres
 
